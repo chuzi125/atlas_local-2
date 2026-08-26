@@ -8,8 +8,8 @@ export function Logo({ className }: { className?: string }) {
         src="/logo.png"
         alt="Atlas Local"
         width={140}
-        height={32}
-        className="h-8 w-auto"
+        height={36}
+        className="h-9 w-auto"
         priority
       />
       
