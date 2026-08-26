@@ -1,17 +1,18 @@
+import Image from "next/image";
 import { cn } from "@/lib/utils";
 
 export function Logo({ className }: { className?: string }) {
   return (
-    <a href="/" className={cn("flex items-center gap-2.5", className)}>
-      <img
-        src="/Logo.png"
+    <a href="/" className={cn("flex items-center gap-3", className)}>
+      <Image
+        src="/logo.png"
         alt="Atlas Local"
-        className="h-8 w-8 object-contain"
+        width={140}
+        height={32}
+        className="h-8 w-auto"
+        priority
       />
-
-      <span className="text-lg font-semibold tracking-tight text-brand-primary">
-        Atlas Local
-      </span>
+      
     </a>
   );
 }
