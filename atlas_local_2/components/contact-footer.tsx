@@ -31,7 +31,6 @@ export function ContactFooter() {
           {[
             { icon: Mail, label: "Email Us", value: "hello@atlaslocal.bond", href: "mailto:hello@atlaslocal.bond" },
             { icon: Phone, label: "Call Us", value: "+234 913 409 9397", href: "tel:+2349134099397" },
-            { icon: MapPin, label: "Visit Us", value: "12B Admiralty Way, Lekki, Lagos", href: "#" },
           ].map((item) => (
             <motion.a
               key={item.label}
