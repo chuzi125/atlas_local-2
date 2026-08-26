@@ -29,8 +29,8 @@ export function ContactFooter() {
 
         <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto mb-20">
           {[
-            { icon: Mail, label: "Email Us", value: "hello@atlaslocal.ng", href: "mailto:hello@atlaslocal.ng" },
-            { icon: Phone, label: "Call Us", value: "+234 901 234 5678", href: "tel:+2349012345678" },
+            { icon: Mail, label: "Email Us", value: "hello@atlaslocal.bond", href: "mailto:hello@atlaslocal.bond" },
+            { icon: Phone, label: "Call Us", value: "+234 913 409 9397", href: "tel:+2349134099397" },
             { icon: MapPin, label: "Visit Us", value: "12B Admiralty Way, Lekki, Lagos", href: "#" },
           ].map((item) => (
             <motion.a
