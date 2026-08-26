@@ -4,7 +4,7 @@ export function Logo({ className }: { className?: string }) {
   return (
     <a href="/" className={cn("flex items-center gap-2.5", className)}>
       <img
-        src="/atlas-local-logo.png"
+        src="/Logo.png"
         alt="Atlas Local"
         className="h-8 w-8 object-contain"
       />
